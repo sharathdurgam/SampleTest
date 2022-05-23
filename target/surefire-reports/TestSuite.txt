@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.904 s <<< FAILURE! - in TestSuite
+f(com.test.shop.SampleTest.testscript.SampleProgram)  Time elapsed: 0.232 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SharathDurgams-MacBook-Pro.local', ip: 'fe80:0:0:0:18b2:8ed4:70b9:f4da%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.test.shop.SampleTest.testscript.SampleProgram.f(SampleProgram.java:27)
+Caused by: java.lang.reflect.InvocationTargetException
+	at com.test.shop.SampleTest.testscript.SampleProgram.f(SampleProgram.java:27)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SharathDurgams-MacBook-Pro.local', ip: 'fe80:0:0:0:18b2:8ed4:70b9:f4da%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/60/x6k0nc5x1dq...}, goog:chromeOptions: {debuggerAddress: localhost:58790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa96ad4e9770e0f8ceddffa39989147f
+*** Element info: {Using=id, value=dropdown-products}
+	at com.test.shop.SampleTest.testscript.SampleProgram.f(SampleProgram.java:27)
+
